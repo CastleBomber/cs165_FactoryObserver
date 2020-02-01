@@ -1,4 +1,4 @@
-package changemyname;
+package goodPackage;
 
 import static sbcc.Core.*;
 
@@ -23,7 +23,7 @@ import org.jfree.data.category.*;
 
 import javax.swing.event.ListSelectionEvent;
 
-public class MainWindow extends JFrame {
+public class MainWindow extends JFrame implements BalanceChangedListener {
 
 	private JPanel mainPanel;
 	private JComboBox accountTypesView;
@@ -51,7 +51,6 @@ public class MainWindow extends JFrame {
 		new MainWindow().setVisible(true);
 	}
 
-
 	/**
 	 * Called when the window first opens.
 	 * 
@@ -59,7 +58,6 @@ public class MainWindow extends JFrame {
 	 */
 	protected void do_this_windowOpened(WindowEvent e) {
 	}
-
 
 	/**
 	 * Called when the ADD button is clicked.
@@ -69,7 +67,6 @@ public class MainWindow extends JFrame {
 	protected void do_addButton_actionPerformed(ActionEvent e) {
 	}
 
-
 	/**
 	 * Called when the REMOVE button is clicked.
 	 * 
@@ -77,7 +74,6 @@ public class MainWindow extends JFrame {
 	 */
 	protected void do_removeButton_actionPerformed(ActionEvent e) {
 	}
-
 
 	/**
 	 * Called when the DEPOSIT button is clicked.
@@ -87,7 +83,6 @@ public class MainWindow extends JFrame {
 	protected void do_depositButton_actionPerformed(ActionEvent e) {
 	}
 
-
 	/**
 	 * Called when the WITHDRAW button is clicked.
 	 * 
@@ -96,12 +91,12 @@ public class MainWindow extends JFrame {
 	protected void do_withdrawButton_actionPerformed(ActionEvent e) {
 	}
 
-
 	/**
 	 * This method clears the account types list and fills it with the given values.
 	 * 
-	 * Call this method at startup with the list of account types that your factory can create. Also call this if your
-	 * factory supports dynamic class loading of new account types.
+	 * Call this method at startup with the list of account types that your factory
+	 * can create. Also call this if your factory supports dynamic class loading of
+	 * new account types.
 	 * 
 	 * @param accountTypes
 	 */
@@ -110,7 +105,6 @@ public class MainWindow extends JFrame {
 		for (String type : accountTypes)
 			accountTypesModel.addElement(type);
 	}
-
 
 	/**
 	 * This method clears the accounts list and fills it with the given values.
@@ -125,9 +119,9 @@ public class MainWindow extends JFrame {
 			accountsModel.addElement(account);
 	}
 
-
 	/**
-	 * This method updates the x and y values in the chart. Call this whenever an account balance changes.
+	 * This method updates the x and y values in the chart. Call this whenever an
+	 * account balance changes.
 	 * 
 	 * @param xLabels
 	 * @param yValues
@@ -137,7 +131,6 @@ public class MainWindow extends JFrame {
 		for (int ndx = 0; ndx < xLabels.length; ndx++)
 			chartModel.setValue(yValues[ndx], "", xLabels[ndx]);
 	}
-
 
 	/**
 	 * Creates the bar chart and adds it to the UI.
@@ -163,7 +156,6 @@ public class MainWindow extends JFrame {
 		balancesPanel.add(cp);
 
 	}
-
 
 	/**
 	 * Constructs the UI.
@@ -310,6 +302,12 @@ public class MainWindow extends JFrame {
 
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(700, 794);
+
+	}
+
+	// sweets! it worked!!
+	@Override
+	public void balanceChanged() {
 
 	}
 
