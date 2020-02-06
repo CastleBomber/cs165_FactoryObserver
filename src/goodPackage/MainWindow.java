@@ -57,6 +57,7 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 	 * @param e
 	 */
 	protected void do_this_windowOpened(WindowEvent e) {
+		// call for account types and display onto scrollPanel
 	}
 
 	/**
@@ -73,6 +74,7 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 	 * @param e
 	 */
 	protected void do_removeButton_actionPerformed(ActionEvent e) {
+		// removing account types, not whole
 	}
 
 	/**
