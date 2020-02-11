@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fe669e3-f188-4faa-bb4b-25f572538e7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/goodPackage/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/goodPackage/Checkings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/AccountFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/AccountFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/BalanceChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/BalanceChangedListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/CD.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/CD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MoneyMarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MoneyMarket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/goodPackage/Savings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/Savings.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/goodPackage/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goodPackage/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/AccountFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goodPackage/Checkings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/Checkings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/goodPackage/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/MainWindow.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+            <state relative-caret-position="248">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
@@ -138,7 +121,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581397175444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581401935842" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
@@ -194,6 +177,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="923" height="777" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.810687" visible="true" weight="0.08967083" />
       <window_info id="Structure" order="1" sideWeight="0.18931298" side_tool="true" weight="0.25202593" />
@@ -209,7 +193,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.82043797" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.04379562" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.11240876" />
@@ -300,8 +284,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+        <state relative-caret-position="248">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
