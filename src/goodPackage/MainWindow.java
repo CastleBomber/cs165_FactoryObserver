@@ -66,7 +66,10 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 	 * @param e
 	 */
 	protected void do_addButton_actionPerformed(ActionEvent e) {
+<<<<<<< HEAD
 		//Account newAccount = AccountFactory.createAccount(aType);
+=======
+>>>>>>> 973da671227ae473816775bda214928f131f7263
 	}
 
 	/**
@@ -306,12 +309,19 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setSize(700, 794);
 
+<<<<<<< HEAD
 		AccountFactory accountFactory = new AccountFactory();
 
 
 	}
 
 	// sweets! it worked!!
+=======
+	}
+
+	// sweets! it worked!!
+	@Override
+>>>>>>> 973da671227ae473816775bda214928f131f7263
 	public void balanceChanged() {
 
 	}

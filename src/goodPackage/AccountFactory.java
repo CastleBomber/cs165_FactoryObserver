@@ -1,7 +1,10 @@
 package goodPackage;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 
+=======
+>>>>>>> 973da671227ae473816775bda214928f131f7263
 /**
  * produces different types of accounts
  * 
@@ -11,6 +14,7 @@ import java.util.ArrayList;
  * that it can produce
  */
 
+<<<<<<< HEAD
 public class AccountFactory {
 
 	// need a list of account types
@@ -38,4 +42,16 @@ public class AccountFactory {
 
 		return newAccount;
 	}
+=======
+public interface AccountFactory {
+
+	// need a list of account types
+
+	public void deposit();
+
+	public void withdraw();
+
+	public void getAccountType();
+
+>>>>>>> 973da671227ae473816775bda214928f131f7263
 }

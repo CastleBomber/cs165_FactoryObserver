@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe669e3-f188-4faa-bb4b-25f572538e7b" name="Default Changelist" comment="" />
+    <list default="true" id="7fe669e3-f188-4faa-bb4b-25f572538e7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bin/goodPackage/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/goodPackage/Checkings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/AccountFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/AccountFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/BalanceChangedListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/BalanceChangedListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/CD.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/CD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/MoneyMarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/MoneyMarket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/goodPackage/Savings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/goodPackage/Savings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodPackage/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodPackage/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/AccountFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodPackage/Checkings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/Checkings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/goodPackage/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/goodPackage/MainWindow.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +48,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1382#1383#0" expanded="true" />
                 <element signature="e#1422#1423#0" expanded="true" />
-                <element signature="method#initChart#0;class#MainWindow#0" />
               </folding>
             </state>
           </provider>
@@ -38,29 +56,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/goodPackage/AccountFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="docComment;class#AccountFactory#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="169">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/goodPackage/Checkings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="135">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -72,12 +87,15 @@
       <find>setvis</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/goodPackage/Checkings.java" />
         <option value="$PROJECT_DIR$/src/goodPackage/AccountFactory.java" />
         <option value="$PROJECT_DIR$/src/goodPackage/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/goodPackage/Checkings.java" />
         <option value="$PROJECT_DIR$/src/goodPackage/Account.java" />
       </list>
     </option>
@@ -87,6 +105,7 @@
     <option name="width" value="923" />
     <option name="height" value="777" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -119,7 +138,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581392880061" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581397175444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
@@ -174,10 +193,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="619" height="777" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="923" height="777" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.810687" visible="true" weight="0.13691507" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.810687" visible="true" weight="0.08967083" />
       <window_info id="Structure" order="1" sideWeight="0.18931298" side_tool="true" weight="0.25202593" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -186,12 +204,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15912409" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15912409" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.82043797" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.11240876" />
@@ -254,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/goodPackage/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -269,25 +280,28 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1382#1383#0" expanded="true" />
             <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="method#initChart#0;class#MainWindow#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/goodPackage/AccountFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding>
-            <element signature="docComment;class#AccountFactory#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="169">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/goodPackage/Checkings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="135">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/goodPackage/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
         </state>
       </provider>
     </entry>
