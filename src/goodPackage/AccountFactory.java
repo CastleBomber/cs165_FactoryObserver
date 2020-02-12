@@ -1,7 +1,4 @@
 package goodPackage;
-
-import java.util.ArrayList;
-
 /**
  * produces different types of accounts
  * 
@@ -21,11 +18,8 @@ public class AccountFactory {
 	 */
 	public Account createAccount(String accountType) {
 
-		Account newAccount = null;
+		Account newAccount;
 
-		if (accountType == null) {
-			return null;
-		}
 		if (accountType.equalsIgnoreCase("Checkings")) {
 			newAccount = new Checkings();
 		} else if (accountType.equalsIgnoreCase("Savings")) {
@@ -34,20 +28,11 @@ public class AccountFactory {
 			newAccount = new MoneyMarket();
 		} else if (accountType.equalsIgnoreCase("CD")) {
 			newAccount = new CD();
+		} else {
+			newAccount = null;
 		}
+
 
 		return newAccount;
 	}
 }
-
-//public interface AccountFactory {
-//
-//	// need a list of account types
-//
-//	public void deposit();
-//
-//	public void withdraw();
-//
-//	public void getAccountType();
-//
-//}

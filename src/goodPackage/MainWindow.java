@@ -1,21 +1,17 @@
 package goodPackage;
 
 import static sbcc.Core.*;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.time.*;
 import java.util.*;
-
 import javax.swing.*;
-
 import static java.lang.Math.*;
 import static java.lang.System.*;
 import static org.apache.commons.lang3.StringUtils.*;
 import javax.swing.border.LineBorder;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.ListSelectionListener;
-
 import org.jfree.chart.*;
 import org.jfree.chart.plot.*;
 import org.jfree.chart.renderer.category.*;
@@ -189,7 +185,7 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 
 		accountTypesView = new JComboBox();
 		accountTypesView.setBorder(null);
-		accountTypesView.setForeground(new Color(51, 51, 51));
+		accountTypesView.setForeground(new Color(0, 100, 0)); //51x3
 		accountTypesView.setFont(new Font("Lucida Grande", Font.PLAIN, 16));
 		accountTypesView.setModel(accountTypesModel);
 		accountTypesView.setBounds(10, 67, 207, 32);
@@ -210,15 +206,15 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 		addButton.setBounds(223, 68, 90, 33);
 		mainPanel.add(addButton);
 
-		accountsTitleLabel = new JLabel("MY ACCOUNTS");
+		accountsTitleLabel = new JLabel("MY AWESOME ACCOUNTS");
 		accountsTitleLabel.setBackground(new Color(51, 51, 51));
 		accountsTitleLabel.setFont(new Font("Lucida Grande", Font.PLAIN, 24));
 		accountsTitleLabel.setForeground(new Color(51, 51, 51));
-		accountsTitleLabel.setBounds(10, 29, 200, 27);
+		accountsTitleLabel.setBounds(10, 29, 350, 27);
 		mainPanel.add(accountsTitleLabel);
 
 		scrollPane = new JScrollPane();
-		scrollPane.setBorder(new LineBorder(new Color(204, 204, 204), 1, true));
+		scrollPane.setBorder(new LineBorder(new Color(204, 0, 204), 1, true));
 		scrollPane.setForeground(new Color(0, 0, 0));
 		scrollPane.setBackground(new Color(255, 255, 255));
 		scrollPane.setViewportBorder(null);
@@ -291,14 +287,14 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 
 		balancesPanel = new JPanel();
 		balancesPanel.setBorder(new EmptyBorder(16, 8, 24, 8));
-		balancesPanel.setBackground(new Color(255, 255, 255));
+		balancesPanel.setBackground(new Color(0, 255, 0)); //255x3
 		balancesPanel.setBounds(10, 228, 668, 520);
 		getContentPane().add(balancesPanel);
 		balancesPanel.setLayout(new BorderLayout(0, 0));
 
 		balancesTitleLabel = new JLabel("BALANCES");
 		balancesTitleLabel.setForeground(new Color(51, 51, 51));
-		balancesTitleLabel.setFont(new Font("Lucida Grande", Font.PLAIN, 24));
+		balancesTitleLabel.setFont(new Font("Lucida Grande", Font.ITALIC, 24));
 		balancesTitleLabel.setBackground(new Color(51, 51, 51));
 		balancesPanel.add(balancesTitleLabel, BorderLayout.NORTH);
 
@@ -312,7 +308,6 @@ public class MainWindow extends JFrame implements BalanceChangedListener {
 
 	}
 
-	// sweets! it worked!!
 	@Override
 	public void balanceChanged() {
 
